@@ -1,0 +1,6 @@
+model,cv_rmse,test_rmse,test_mae,test_r2,best_params
+RandomForest,505.7947978955256,461.7968972491045,276.5245335797942,0.4704692187428109,"{""regressor__model__max_depth"": null, ""regressor__model__n_estimators"": 120}"
+ExtraTrees,490.3748507376904,462.8445939700393,281.93296816956416,0.46806375867703753,"{""regressor__model__max_depth"": 12, ""regressor__model__n_estimators"": 140}"
+GradientBoosting,492.3206286223044,485.36809596202164,295.02474348713673,0.4150326302219528,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__n_estimators"": 160}"
+KNN,540.3252128697753,494.9169344241998,314.63152410564766,0.3917896342835028,"{""regressor__model__n_neighbors"": 5}"
+Ridge,2.815582907959121e+26,572.0696517142387,363.3753092439217,0.1873809347800568,"{""regressor__model__alpha"": 100.0}"

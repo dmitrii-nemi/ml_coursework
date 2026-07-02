@@ -1,0 +1,6 @@
+model,threshold,cv_roc_auc,test_roc_auc,test_accuracy,test_f1,best_params
+ExtraTrees,8.0,0.7071367298847121,0.7451014492753624,0.6958762886597938,0.5755395683453237,"{""model__max_depth"": 12, ""model__n_estimators"": 140}"
+RandomForest,8.0,0.6958252629952707,0.7386086956521739,0.7061855670103093,0.5957446808510638,"{""model__max_depth"": 12, ""model__n_estimators"": 120}"
+GradientBoosting,8.0,0.692100390714033,0.7277101449275363,0.6701030927835051,0.5,"{""model__learning_rate"": 0.1, ""model__n_estimators"": 160}"
+LogisticRegression,8.0,0.6775352782252028,0.6936231884057972,0.634020618556701,0.5590062111801242,"{""model__C"": 1.0}"
+SVC,8.0,0.5570062693533143,0.5466086956521738,0.3556701030927835,0.5210727969348659,"{""model__C"": 1.0, ""model__gamma"": ""scale""}"
